@@ -1,4 +1,10 @@
+database:
+  override: []
+
+dependencies:
+  post:
+    - bundle exec appraisal install
+
 test:
   override:
-    - bundle exec appraisal install
     - bundle exec appraisal rake
