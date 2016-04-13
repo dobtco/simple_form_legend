@@ -1,0 +1,7 @@
+require 'bundler/setup'
+require 'rails/all'
+require 'simple_form_legend'
+require 'rspec'
+require 'nokogiri'
+require 'rspec-html-matchers'
+require_relative 'setup'
