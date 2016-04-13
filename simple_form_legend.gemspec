@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.files         = Dir['lib/**/*'] + ['LICENSE.txt', 'README.md']
   s.require_paths = ['lib']
 
+  s.add_runtime_dependency 'rails', '>= 4.0'
   s.add_runtime_dependency 'simple_form', '>= 3.0'
 
   s.add_development_dependency 'rake'
